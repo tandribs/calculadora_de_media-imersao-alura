@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body, html {
+ font-family: 'Lato',monospace;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+body{ 
+ background-image:url('https://images.squarespace-cdn.com/content/v1/5a04e59e9f07f5503c831361/1617934170156-NP7XSC340V3YRW5QKT5F/fields_GoogleR3a.jpg?format=1000w');
+ background-size: cover;
+ background-position: center;
+ background-color: #8A2BE2;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container-itens {
+ text-align: center;
+}
+
+.container-items h1{
+ font-size:40px;
+}
+
+.container-items p{
+ font-size:20px; 
+}
+
+.page-title {
+ color:#ffffff;
+ margin: 0 0 5px;
+}
+
+.page-subtitle {
+ color:#ffffff;
+ margin-top: 5px;
+}
+
+.caixa-notas{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ margin-top: 15px;
+ gap: 20px;
+}
+
+.caixa-notas input{
+ display: flex;
+ padding: 15px;
+ border: none;
+ border-radius: 20px;
+ outline: none;
+}
+
+.caixa-notas button{
+ padding: 15px;
+ background: green;
+ border-radius: 25px;
+ color: white;
+ border: none;
+ cursor: pointer;
+}
+
+.caixa-notas button:hover{
+  background:white;
+  color: green;
+}
+
+.resposta{
+  font-family: 'Lato', monospace;
+  padding: 70px; 
+}
+
+.page-logo {
+ width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
